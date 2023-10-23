@@ -1,0 +1,41 @@
+/* Global Container */
+
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* Extra Small */
+@media (max-width: 576px) {
+  .container {
+    width: 100%;
+  }
+}
+
+/* Small */
+@media (min-width: 576px) {
+  .container {
+    width: 540px;
+  }
+}
+
+/* Medium */
+@media (min-width: 768px) {
+  .container {
+    width: 720px;
+  }
+}
+
+/* Large */
+@media (min-width: 992px) {
+  .container {
+    width: 960px;
+  }
+}
+
+/* Extra Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
